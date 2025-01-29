@@ -21,6 +21,14 @@ The tool supports the following file types for extraction:
 
 ## How does it work?
 
+### Hiding a File
+The application reads the contents of both the cover file and the file to hide.
+It then concatenates the byte arrays of these two files to create a single combined file.
+
+### Extracting Hidden Files
+The application scans the combined file for known file signatures (markers) within the byte array. These markers help identify the start and end of the hidden files.
+
+
 ## Usage
 The executable file is `SteganographyTool.exe`.
 
