@@ -19,6 +19,8 @@ The tool supports the following file types for extraction:
 - SVG (`<svg ... </svg>`)
 - ZIP (`PK... ... PK...`)
 
+If the file format is not supported, the extracted file will be saved with a `.bin` extension.
+
 ## How does it work?
 
 ### Hiding a File
