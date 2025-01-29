@@ -22,7 +22,7 @@ The tool supports the following file types for extraction:
 ## How does it work?
 
 ## Usage
-The release version of the executable file can be found at `"SteganographyTool\bin\Release\net8.0-windows\SteganographyTool.exe"`.
+The executable file is `SteganographyTool.exe`.
 
 ### Hiding a File
 
