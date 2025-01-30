@@ -27,9 +27,12 @@ If the file format is not supported, the extracted file will be saved with a `.b
 The application reads the contents of both the cover file and the file to hide.
 It then concatenates the byte arrays of these two files to create a single combined file.
 
+<img width="540" alt="Image" src="https://github.com/user-attachments/assets/fff6f9a2-4ee8-48e0-a142-d9a7ad1e1e10" />
+
 ### Extracting Hidden Files
 The application scans the combined file for known file signatures (markers) within the byte array. These markers help identify the start and end of the hidden files.
 
+<img width="540" alt="Image" src="https://github.com/user-attachments/assets/878e17b5-beef-4556-98e5-a6a90f0d1a66" />
 
 ## Usage
 The executable file is `SteganographyTool.exe`.
